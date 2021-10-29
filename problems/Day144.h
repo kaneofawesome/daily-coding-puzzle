@@ -5,16 +5,16 @@
  *      Author: KaneA
  */
 
-#ifndef PROBLEMS_DAY144_H_
-#define PROBLEMS_DAY144_H_
+#pragma once
 
-#include "support/Problem.h"
+#include "../support/Problem.h"
 
-class Day144 : public Problem {
-public:
-	Day144();
-	virtual ~Day144();
-	virtual void run();
-};
-
-#endif /* PROBLEMS_DAY144_H_ */
+namespace problems
+{
+	class Day144 : public Problem {
+	public:
+		Day144();
+		virtual ~Day144();
+		virtual void run();
+	};
+}

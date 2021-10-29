@@ -33,3 +33,9 @@ Debug
 *.exe
 *.out
 *.app
+
+# vs code
+.vscode
+
+# output
+build

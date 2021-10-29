@@ -4,6 +4,7 @@
 #include "problems/Day144.h"
 
 using namespace std;
+using namespace problems;
 
 int main()
 {

@@ -11,15 +11,18 @@
 
 using namespace std;
 
-Day144::Day144() : Problem(144)
+namespace problems
 {
-}
+	Day144::Day144() : Problem(144)
+	{
+	}
 
-Day144::~Day144()
-{
-}
+	Day144::~Day144()
+	{
+	}
 
-void Day144::run()
-{
-	std::cout << "Running code for daily coding problem " << dayNumber << endl;
+	void Day144::run()
+	{
+		std::cout << "Running code for daily coding problem " << dayNumber << endl;
+	}
 }
